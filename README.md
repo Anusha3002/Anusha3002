@@ -1,7 +1,7 @@
-### Hola a todos!
-### I'm Anusha
+### Hola a todos! I'm Anusha
 #### I am a competitive programmer || 3 ⭐️ at codechef
 
+![github](https://github.com/Anusha3002/Anusha3002/blob/main/github_banner.jpeg)
 
 I’m Anusha Choudhary and I’m a B-Tech undergraduate sophomore student at NIT Allahabad. Apart from coding, I’m super passionate about story writing. I'm also working as a content writer at a hackathon - Hack36
 
