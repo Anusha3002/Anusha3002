@@ -7,6 +7,8 @@ I’m Anusha Choudhary and I’m a B-Tech undergraduate sophomore student at NIT
 
 Skills: C++ / PYTHON / HTML / CSS / JAVA
 
+current status:
+
 - 🔭 I’m currently working on my portfolio 
 - 🌱 I’m currently learning Django 
 
