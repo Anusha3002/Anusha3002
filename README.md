@@ -11,7 +11,7 @@ current status:
 
 - 🔭 I’m currently working on my portfolio 
 - 🌱 I’m currently learning Django 
-- 👀 I'm doing content writing at HACK36 and SMP Page MNNIT
+- 👀 I'm doing content writing at HACK36 and SMP Divesta Page MNNIT
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Anusha3002)     [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/anusha-choudhary-9a504a208//)         [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/theunscratchedstories/)  
