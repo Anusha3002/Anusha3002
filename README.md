@@ -12,7 +12,9 @@ As a Creative Writer, I indulge my love for words and narratives by crafting cap
 Throughout my journey, I have discovered that the convergence of coding and creative writing empowers me to think both analytically and imaginatively. It is this unique blend that ignites my creativity and allows me to approach problem-solving with an innovative mindset.
 
 Skills: C, C++, C#, Java, HTML, CSS, JavaScript, Python, 
-Technologies: Dotnet, Bootstrap, Spring-Boot, React, MySQL
+Technologies: Dotnet, Bootstrap, Spring-Boot, React, MySQL,
+
+
 Training And Certifications: 
 1) Certified Prompt Engineer by Blockchain Council.
 2) Building APIs over ChatGPT, Semantic Kernel, and Langchain.
