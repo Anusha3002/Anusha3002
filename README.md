@@ -1,15 +1,10 @@
-### Hola a todos! I'm Anusha
-#### I am a competitive programmer || 3 ⭐️ at codechef
+### Hi! I'm Anusha
+A software engineer by day, a storyteller by heart, and a proud inhabitant of the beautiful chaos that is New York City. I work at Bridgeline and am an exceptionally enthusiastic and committed individual who believes in pouring every ounce of my mind, heart, and soul into everything I undertake. With an unwavering passion for programming and a creative spirit that thrives on storytelling, I am constantly pushing the boundaries of my abilities. I am diligently working on an exciting project that fuels my drive to innovate and create impactful solutions.
 
-
-I’m Anusha Choudhary, and I am an exceptionally enthusiastic and committed individual who believes in pouring every ounce of my mind, heart, and soul into everything I undertake. With an unwavering passion for coding and a creative spirit that thrives on storytelling, I am constantly pushing the boundaries of my abilities.
-
-Presently, I find myself immersed in the world of competitive coding, relishing the challenges it presents and the opportunity to sharpen my problem-solving skills. Simultaneously, I am diligently working on an exciting project that fuels my drive to innovate and create impactful solutions.
-
-As a Creative Writer, I indulge my love for words and narratives by crafting captivating short stories. My collection of written works has found a home on my dedicated Instagram page, where I share my literary creations with a vibrant community of fellow enthusiasts. Throughout my journey, I have discovered that the convergence of coding and creative writing empowers me to think both analytically and imaginatively. It is this unique blend that ignites my creativity and allows me to approach problem-solving with an innovative mindset.
+As a Creative Writer, I indulge my love for words and narratives by crafting captivating short stories. My collection of written works has found a home on my wattpad and Instagram page, where I share my literary creations with a vibrant community of fellow enthusiasts. Throughout my journey, I have discovered that the convergence of coding and creative writing empowers me to think both analytically and imaginatively. It is this unique blend that ignites my creativity and allows me to approach problem-solving with an innovative mindset.
 
 Skills: C, C++, C#, Java, HTML, CSS, JavaScript, Python, 
-Technologies: Dotnet, Bootstrap, Spring-Boot, React, MySQL,
+Technologies: .Net, Bootstrap, Spring-Boot, React, MySQL, Django
 
 
 Training And Certifications: 
