@@ -1,6 +1,6 @@
 ## Hi, I'm Anusha!
 
-**CS bachelor's degree from NIT Allahabad('24) → Software Engineer at Bridgeline in NY → lead engineer at Princeton → MSCS at NYU Courant → Heading to Qualcomm, San Diego this summer for internship ('26). I also write short stories because my career trajectory wasn't enough of a plot twist, and the fact that my characters have better work-life balance than I do.**
+**CS bachelor's degree from NIT Allahabad('24) → Software Engineer at Bridgeline in NY → lead engineer at Princeton → MSCS at NYU Courant → did a summer internship @ Qualcomm, San Diego ('26). I also write short stories because my career trajectory wasn't enough of a plot twist, and the fact that my characters have better work-life balance than I do.**
 
 I kept writing as my Plan B in case engineering didn't pan out. Nobody warned me AI would come for both. Should've learned farming.
 
@@ -12,7 +12,6 @@ In short:
 ---
 
 ### What I'm up to
-- Incoming Engineering Intern at **Qualcomm** this summer
 - Working on two exciting projects!!
 - Led the full-stack build of **CoFlow** at **Princeton University** (A leadership development platform - www.coflow.dev)
 - Writing short stories on Wattpad when my code finally compiles, which is somehow after 1 am or after a week. 
