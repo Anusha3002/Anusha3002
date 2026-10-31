@@ -1,27 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 310" width="800" height="310" role="img" aria-label="A shelf of my most re-read books">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 372" width="800" height="372" role="img" aria-label="The Library: Fantasy books, Fourth Wing, Algorithms to Live By, Data Structures and Algorithms, Hash Maps, Embedded Systems, Systems Engineering, and an unread TBR pile">
   <style>
-    .book { transform-box: fill-box; transform-origin: 50% 100%; animation: pop 9s ease-in-out infinite; }
+    .book { transform-box: fill-box; transform-origin: 50% 100%; animation: pop 10s ease-in-out infinite; }
     @keyframes pop {
-      0%, 62%, 100% { transform: translateY(0) rotate(0deg); }
-      70% { transform: translateY(-14px) rotate(-2.5deg); }
+      0%, 64%, 100% { transform: translateY(0) rotate(0deg); }
+      71% { transform: translateY(-14px) rotate(-2.5deg); }
       78% { transform: translateY(-8px) rotate(1.5deg); }
-      86% { transform: translateY(0) rotate(0deg); }
+      85% { transform: translateY(0) rotate(0deg); }
     }
-    .title { font-family: Georgia, 'Times New Roman', serif; font-size: 11px; letter-spacing: 1.4px; fill: #c9a55c; }
+    .title { font-family: Georgia, 'Times New Roman', serif; letter-spacing: 1.2px; }
     .cap { font-family: Georgia, 'Times New Roman', serif; font-size: 14px; font-style: italic; fill: #8a7a5c; }
   </style>
   <defs>
-    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e9e0cb"/><stop offset="1" stop-color="#dfd3b8"/>
-    </linearGradient>
-    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#efe7d3"/><stop offset="1" stop-color="#d9cfb6"/>
-    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9e0cb"/><stop offset="1" stop-color="#dfd3b8"/></linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe7d3"/><stop offset="1" stop-color="#d9cfb6"/></linearGradient>
     <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#000" stop-opacity=".22"/>
-      <stop offset=".25" stop-color="#fff" stop-opacity=".07"/>
-      <stop offset=".8" stop-color="#000" stop-opacity=".05"/>
-      <stop offset="1" stop-color="#000" stop-opacity=".25"/>
+      <stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".25" stop-color="#fff" stop-opacity=".07"/>
+      <stop offset=".8" stop-color="#000" stop-opacity=".05"/><stop offset="1" stop-color="#000" stop-opacity=".25"/>
     </linearGradient>
     <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
@@ -29,109 +23,104 @@
       <feColorMatrix values="0 0 0 0 .4  0 0 0 0 .33  0 0 0 0 .2  0 0 0 .09 0"/>
     </filter>
   </defs>
-
-  <rect width="800" height="310" fill="url(#wall)"/>
-  <rect width="800" height="310" filter="url(#grain)"/>
-
-  <!-- dappled window light, upper right -->
+  <rect width="800" height="372" fill="url(#wall)"/>
+  <rect width="800" height="372" filter="url(#grain)"/>
   <g filter="url(#blur)" fill="#b9a982" opacity=".28">
-    <path d="M590 0 L650 0 L560 150 L520 150Z"/>
-    <path d="M680 0 L740 0 L690 120 L640 140Z"/>
+    <path d="M590 0 L650 0 L560 150 L520 150Z"/><path d="M680 0 L740 0 L690 120 L640 140Z"/>
     <ellipse cx="710" cy="70" rx="38" ry="12" transform="rotate(-35 710 70)"/>
     <ellipse cx="620" cy="110" rx="30" ry="9" transform="rotate(-40 620 110)"/>
     <ellipse cx="760" cy="150" rx="34" ry="10" transform="rotate(-30 760 150)"/>
   </g>
-  <g class="book" style="animation-delay:0.00s">
-    <rect x="170.5" y="62" width="56" height="190" rx="2.5" fill="#2f4a3c"/>
-    <rect x="170.5" y="62" width="56" height="190" rx="2.5" filter="url(#grain)"/>
-    <rect x="170.5" y="62" width="56" height="190" rx="2.5" fill="url(#spine)"/>
-    <rect x="172.5" y="72" width="52" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="172.5" y="76" width="52" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="172.5" y="236" width="52" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="172.5" y="232" width="52" height=".8" fill="#c9a55c" opacity=".7"/>
-    <path d="M198.5 114 L198.5 86" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><path d="M198.5 96 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M198.5 96 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M198.5 104 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M198.5 104 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M198.5 112 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M198.5 112 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/>
-    <text class="title" style="fill:#c9a55c" transform="translate(198.5,177.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK ONE</text>
+  <g class="book" style="animation-delay:0.0s">
+    <rect x="142.5" y="61" width="60" height="235" rx="2.5" fill="#2f4a3c"/>
+    <rect x="142.5" y="61" width="60" height="235" rx="2.5" filter="url(#grain)"/>
+    <rect x="142.5" y="61" width="60" height="235" rx="2.5" fill="url(#spine)"/>
+    <rect x="144.5" y="71" width="56" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="144.5" y="75" width="56" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="144.5" y="280" width="56" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="144.5" y="276" width="56" height=".8" fill="#c9a55c" opacity=".7"/>
+    <path d="M172.5 113 L172.5 85" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><path d="M172.5 95 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M172.5 95 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M172.5 103 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M172.5 103 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M172.5 111 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M172.5 111 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/>
+    <text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(166.0,198.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">FANTASY</text><text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(179.0,198.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOKS</text>
   </g>
-  <g class="book" style="animation-delay:1.15s">
-    <rect x="231.5" y="82" width="46" height="170" rx="2.5" fill="#d8ccb0"/>
-    <rect x="231.5" y="82" width="46" height="170" rx="2.5" filter="url(#grain)"/>
-    <rect x="231.5" y="82" width="46" height="170" rx="2.5" fill="url(#spine)"/>
-    <rect x="233.5" y="92" width="42" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="233.5" y="96" width="42" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="233.5" y="236" width="42" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="233.5" y="232" width="42" height=".8" fill="#c9a55c" opacity=".7"/>
-    <circle cx="254.5" cy="114" r="9" fill="#c9a55c" opacity=".75"/><path d="M254.5 122 L254.5 136" stroke="#c9a55c" fill="none" stroke-width="2" stroke-linecap="round" opacity=".9"/>
-    <text class="title" style="fill:#7a5c2e" transform="translate(254.5,187.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK TWO</text>
+  <g class="book" style="animation-delay:1.2s">
+    <rect x="207.5" y="81" width="56" height="215" rx="2.5" fill="#8a5a3c"/>
+    <rect x="207.5" y="81" width="56" height="215" rx="2.5" filter="url(#grain)"/>
+    <rect x="207.5" y="81" width="56" height="215" rx="2.5" fill="url(#spine)"/>
+    <rect x="209.5" y="91" width="52" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="209.5" y="95" width="52" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="209.5" y="280" width="52" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="209.5" y="276" width="52" height=".8" fill="#c9a55c" opacity=".7"/>
+    <path d="M220.5 131 C223.5 114 237.5 106 251.5 108 C243.5 112 241.5 116 245.5 118 C238.5 119 236.5 123 239.5 126 C232.5 126 229.5 129 220.5 131Z" fill="#c9a55c" opacity=".9"/>
+    <text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(229.0,208.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">FOURTH</text><text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(242.0,208.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">WING</text>
   </g>
-  <g class="book" style="animation-delay:2.30s">
-    <rect x="282.5" y="47" width="62" height="205" rx="2.5" fill="#4e6e52"/>
-    <rect x="282.5" y="47" width="62" height="205" rx="2.5" filter="url(#grain)"/>
-    <rect x="282.5" y="47" width="62" height="205" rx="2.5" fill="url(#spine)"/>
-    <rect x="284.5" y="57" width="58" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="284.5" y="61" width="58" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="284.5" y="236" width="58" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="284.5" y="232" width="58" height=".8" fill="#c9a55c" opacity=".7"/>
-    <path d="M313.5 85 c-14 -16 -16 2 -2 8 c-8 2 -4 12 2 6z" fill="#c9a55c" opacity=".9"/><path d="M313.5 85 c14 -16 16 2 2 8 c8 2 4 12 -2 6z" fill="#c9a55c" opacity=".9"/><path d="M313.5 79 L313.5 97" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/>
-    <text class="title" style="fill:#c9a55c" transform="translate(313.5,169.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK THREE</text>
+  <g class="book" style="animation-delay:2.4s">
+    <rect x="268.5" y="41" width="68" height="255" rx="2.5" fill="#d8ccb0"/>
+    <rect x="268.5" y="41" width="68" height="255" rx="2.5" filter="url(#grain)"/>
+    <rect x="268.5" y="41" width="68" height="255" rx="2.5" fill="url(#spine)"/>
+    <rect x="270.5" y="51" width="64" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="270.5" y="55" width="64" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="270.5" y="280" width="64" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="270.5" y="276" width="64" height=".8" fill="#c9a55c" opacity=".7"/>
+    <circle cx="302.5" cy="73" r="9" fill="#c9a55c" opacity=".75"/><path d="M302.5 81 L302.5 95" stroke="#c9a55c" fill="none" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+    <text class="title" style="fill:#7a5c2e;font-size:10.5px" transform="translate(296.0,188.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">ALGORITHMS</text><text class="title" style="fill:#7a5c2e;font-size:10.5px" transform="translate(309.0,188.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">TO LIVE BY</text>
   </g>
-  <g class="book" style="animation-delay:3.45s">
-    <rect x="349.5" y="77" width="50" height="175" rx="2.5" fill="#8a5a3c"/>
-    <rect x="349.5" y="77" width="50" height="175" rx="2.5" filter="url(#grain)"/>
-    <rect x="349.5" y="77" width="50" height="175" rx="2.5" fill="url(#spine)"/>
-    <rect x="351.5" y="87" width="46" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="351.5" y="91" width="46" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="351.5" y="236" width="46" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="351.5" y="232" width="46" height=".8" fill="#c9a55c" opacity=".7"/>
-    <path d="M374.5 99 l9 14 l-9 14 l-9 -14z" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><circle cx="374.5" cy="113" r="2.2" fill="#c9a55c" opacity=".9"/>
-    <text class="title" style="fill:#c9a55c" transform="translate(374.5,184.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK FOUR</text>
+  <g class="book" style="animation-delay:3.6s">
+    <rect x="341.5" y="71" width="62" height="225" rx="2.5" fill="#4e6e52"/>
+    <rect x="341.5" y="71" width="62" height="225" rx="2.5" filter="url(#grain)"/>
+    <rect x="341.5" y="71" width="62" height="225" rx="2.5" fill="url(#spine)"/>
+    <rect x="343.5" y="81" width="58" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="343.5" y="85" width="58" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="343.5" y="280" width="58" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="343.5" y="276" width="58" height=".8" fill="#c9a55c" opacity=".7"/>
+    <path d="M372.5 93 l9 14 l-9 14 l-9 -14z" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><circle cx="372.5" cy="107" r="2.2" fill="#c9a55c" opacity=".9"/>
+    <text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(366.0,203.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">DATA STRUCTURES</text><text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(379.0,203.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">&amp; ALGORITHMS</text>
   </g>
-  <g class="book" style="animation-delay:4.60s">
-    <rect x="404.5" y="57" width="58" height="195" rx="2.5" fill="#6f8a5c"/>
-    <rect x="404.5" y="57" width="58" height="195" rx="2.5" filter="url(#grain)"/>
-    <rect x="404.5" y="57" width="58" height="195" rx="2.5" fill="url(#spine)"/>
-    <rect x="406.5" y="67" width="54" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="406.5" y="71" width="54" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="406.5" y="236" width="54" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="406.5" y="232" width="54" height=".8" fill="#c9a55c" opacity=".7"/>
-    <path d="M433.5 109 L433.5 81" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><path d="M433.5 91 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M433.5 91 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M433.5 99 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M433.5 99 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M433.5 107 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M433.5 107 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/>
-    <text class="title" style="fill:#c9a55c" transform="translate(433.5,174.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK FIVE</text>
+  <g class="book" style="animation-delay:4.8s">
+    <rect x="408.5" y="51" width="58" height="245" rx="2.5" fill="#7d8f5a"/>
+    <rect x="408.5" y="51" width="58" height="245" rx="2.5" filter="url(#grain)"/>
+    <rect x="408.5" y="51" width="58" height="245" rx="2.5" fill="url(#spine)"/>
+    <rect x="410.5" y="61" width="54" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="410.5" y="65" width="54" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="410.5" y="280" width="54" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="410.5" y="276" width="54" height=".8" fill="#c9a55c" opacity=".7"/>
+    <path d="M437.5 103 L437.5 75" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><path d="M437.5 85 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M437.5 85 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M437.5 93 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M437.5 93 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/><path d="M437.5 101 q-9 -4 -8 -9 q8 2 8 9z" fill="#c9a55c" opacity=".9"/><path d="M437.5 101 q9 -4 8 -9 q-8 2 -8 9z" fill="#c9a55c" opacity=".9"/>
+    <text class="title" style="fill:#f3ead2;font-size:11.5px" transform="translate(437.5,193.5) rotate(-90)" text-anchor="middle" dominant-baseline="central">HASH MAPS</text>
   </g>
-  <g class="book" style="animation-delay:5.75s">
-    <rect x="467.5" y="72" width="44" height="180" rx="2.5" fill="#e2d8be"/>
-    <rect x="467.5" y="72" width="44" height="180" rx="2.5" filter="url(#grain)"/>
-    <rect x="467.5" y="72" width="44" height="180" rx="2.5" fill="url(#spine)"/>
-    <rect x="469.5" y="82" width="40" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="469.5" y="86" width="40" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="469.5" y="236" width="40" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="469.5" y="232" width="40" height=".8" fill="#c9a55c" opacity=".7"/>
-    <circle cx="489.5" cy="104" r="9" fill="#c9a55c" opacity=".75"/><path d="M489.5 112 L489.5 126" stroke="#c9a55c" fill="none" stroke-width="2" stroke-linecap="round" opacity=".9"/>
-    <text class="title" style="fill:#7a5c2e" transform="translate(489.5,182.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK SIX</text>
+  <g class="book" style="animation-delay:6.0s">
+    <rect x="471.5" y="76" width="54" height="220" rx="2.5" fill="#34503f"/>
+    <rect x="471.5" y="76" width="54" height="220" rx="2.5" filter="url(#grain)"/>
+    <rect x="471.5" y="76" width="54" height="220" rx="2.5" fill="url(#spine)"/>
+    <rect x="473.5" y="86" width="50" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="473.5" y="90" width="50" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="473.5" y="280" width="50" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="473.5" y="276" width="50" height=".8" fill="#c9a55c" opacity=".7"/>
+    <path d="M498.5 114 c-14 -16 -16 2 -2 8 c-8 2 -4 12 2 6z" fill="#c9a55c" opacity=".9"/><path d="M498.5 114 c14 -16 16 2 2 8 c8 2 4 12 -2 6z" fill="#c9a55c" opacity=".9"/><path d="M498.5 108 L498.5 126" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/>
+    <text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(492.0,206.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">EMBEDDED</text><text class="title" style="fill:#c9a55c;font-size:10.5px" transform="translate(505.0,206.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">SYSTEMS</text>
   </g>
-  <g class="book" style="animation-delay:6.90s">
-    <rect x="516.5" y="52" width="60" height="200" rx="2.5" fill="#34503f"/>
-    <rect x="516.5" y="52" width="60" height="200" rx="2.5" filter="url(#grain)"/>
-    <rect x="516.5" y="52" width="60" height="200" rx="2.5" fill="url(#spine)"/>
-    <rect x="518.5" y="62" width="56" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="518.5" y="66" width="56" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="518.5" y="236" width="56" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="518.5" y="232" width="56" height=".8" fill="#c9a55c" opacity=".7"/>
-    <path d="M546.5 90 c-14 -16 -16 2 -2 8 c-8 2 -4 12 2 6z" fill="#c9a55c" opacity=".9"/><path d="M546.5 90 c14 -16 16 2 2 8 c8 2 4 12 -2 6z" fill="#c9a55c" opacity=".9"/><path d="M546.5 84 L546.5 102" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/>
-    <text class="title" style="fill:#c9a55c" transform="translate(546.5,172.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK SEVEN</text>
+  <g class="book" style="animation-delay:7.2s">
+    <rect x="530.5" y="46" width="66" height="250" rx="2.5" fill="#e2d8be"/>
+    <rect x="530.5" y="46" width="66" height="250" rx="2.5" filter="url(#grain)"/>
+    <rect x="530.5" y="46" width="66" height="250" rx="2.5" fill="url(#spine)"/>
+    <rect x="532.5" y="56" width="62" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="532.5" y="60" width="62" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="532.5" y="280" width="62" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="532.5" y="276" width="62" height=".8" fill="#c9a55c" opacity=".7"/>
+    <circle cx="563.5" cy="78" r="9" fill="#c9a55c" opacity=".75"/><path d="M563.5 86 L563.5 100" stroke="#c9a55c" fill="none" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+    <text class="title" style="fill:#7a5c2e;font-size:10.5px" transform="translate(557.0,191.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">SYSTEMS</text><text class="title" style="fill:#7a5c2e;font-size:10.5px" transform="translate(570.0,191.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">ENGINEERING</text>
   </g>
-  <g class="book" style="animation-delay:8.05s">
-    <rect x="581.5" y="84" width="48" height="168" rx="2.5" fill="#7d8f5a"/>
-    <rect x="581.5" y="84" width="48" height="168" rx="2.5" filter="url(#grain)"/>
-    <rect x="581.5" y="84" width="48" height="168" rx="2.5" fill="url(#spine)"/>
-    <rect x="583.5" y="94" width="44" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="583.5" y="98" width="44" height=".8" fill="#c9a55c" opacity=".7"/>
-    <rect x="583.5" y="236" width="44" height="1.6" fill="#c9a55c" opacity=".9"/>
-    <rect x="583.5" y="232" width="44" height=".8" fill="#c9a55c" opacity=".7"/>
-    <path d="M605.5 106 l9 14 l-9 14 l-9 -14z" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><circle cx="605.5" cy="120" r="2.2" fill="#c9a55c" opacity=".9"/>
-    <text class="title" style="fill:#c9a55c" transform="translate(605.5,188.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">BOOK EIGHT</text>
+  <g class="book" style="animation-delay:8.4s">
+    <rect x="601.5" y="66" width="56" height="230" rx="2.5" fill="#6f8a5c"/>
+    <rect x="601.5" y="66" width="56" height="230" rx="2.5" filter="url(#grain)"/>
+    <rect x="601.5" y="66" width="56" height="230" rx="2.5" fill="url(#spine)"/>
+    <rect x="603.5" y="76" width="52" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="603.5" y="80" width="52" height=".8" fill="#c9a55c" opacity=".7"/>
+    <rect x="603.5" y="280" width="52" height="1.6" fill="#c9a55c" opacity=".9"/>
+    <rect x="603.5" y="276" width="52" height=".8" fill="#c9a55c" opacity=".7"/>
+    <path d="M629.5 88 l9 14 l-9 14 l-9 -14z" stroke="#c9a55c" fill="none" stroke-width="1.2" stroke-linecap="round" opacity=".9"/><circle cx="629.5" cy="102" r="2.2" fill="#c9a55c" opacity=".9"/>
+    <text class="title" style="fill:#f3ead2;font-size:10.5px" transform="translate(623.0,201.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">TBR</text><text class="title" style="fill:#f3ead2;font-size:10.5px" transform="translate(636.0,201.0) rotate(-90)" text-anchor="middle" dominant-baseline="central">(UNREAD)</text>
   </g>
-  <!-- shelf -->
-  <rect x="0" y="252" width="800" height="20" fill="url(#shelf)"/>
-  <rect x="0" y="252" width="800" height="1.5" fill="#fff" opacity=".6"/>
-  <rect x="0" y="272" width="800" height="16" fill="#000" opacity=".06"/>
-  <text class="cap" x="400.0" y="308" text-anchor="middle">my most re-read comfort books</text>
+  <rect x="0" y="296" width="800" height="20" fill="url(#shelf)"/>
+  <rect x="0" y="296" width="800" height="1.5" fill="#fff" opacity=".6"/>
+  <rect x="0" y="316" width="800" height="16" fill="#000" opacity=".06"/>
+  <text class="cap" x="400.0" y="352" text-anchor="middle">my most re-read comfort books</text>
 </svg>
