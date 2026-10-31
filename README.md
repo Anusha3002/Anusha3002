@@ -22,11 +22,13 @@ A girl from the planet Earth learned that **compilers throw errors and dragons c
 
 ---
 
-## 📚 My Shelf
+## My Library
+
+*Only 6,457 books. I have self-control.*
 
 <div align="center">
 
-<img src="bookshelf.svg" alt="A shelf of my most re-read books" width="700" />
+<img src="bookshelf.svg" alt="A shelf of my most re-read books out of the 6,457 books" width="700" />
 
 </div>
 
