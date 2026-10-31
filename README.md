@@ -59,15 +59,6 @@ Oh, you kindred spirit. My shelf leans mostly towards **fantasy**: big worlds, c
 
 </details>
 
-<details>
-<summary>🚪 <b>I'm here for the stories</b></summary>
-
-<br>
-
-Uh-ya, I guess I write too. Find my words at **[@theunscratchedstories](https://instagram.com/theunscratchedstories)**.
-
-</details>
-
 ---
 
 ## The Commit Ledger
